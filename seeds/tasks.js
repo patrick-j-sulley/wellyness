@@ -32,20 +32,20 @@ exports.seed = knex =>
         { id: 223, goal_id: 106, title: 'Something I see', status: false }, //Juliet-goal3
         { id: 224, goal_id: 106, title: 'A meditation practice', status: false }, //Juliet-goal3
 
-        { id: 225, goal_id: 107, title: 'mytask1', status: false }, //Patrick-goal1
-        { id: 226, goal_id: 107, title: 'mytask2', status: false }, //Patrick-goal1
-        { id: 227, goal_id: 107, title: 'mytask3', status: false }, //Patrick-goal1
-        { id: 228, goal_id: 107, title: 'mytask4', status: false }, //Patrick-goal1
+        { id: 225, goal_id: 107, title: 'Research healthy recipes', status: false }, //Patrick-goal1
+        { id: 226, goal_id: 107, title: 'Write shopping list', status: false }, //Patrick-goal1
+        { id: 227, goal_id: 107, title: 'mytaGo to supermarket', status: false }, //Patrick-goal1
+        { id: 228, goal_id: 107, title: 'Meal prep for the week on Sunday', status: false }, //Patrick-goal1
 
-        { id: 229, goal_id: 108, title: 'mytask1', status: false }, //Patrick-goal2
-        { id: 230, goal_id: 108, title: 'mytask2', status: false }, //Patrick-goal2
-        { id: 231, goal_id: 108, title: 'mytask3', status: false }, //Patrick-goal2
-        { id: 232, goal_id: 108, title: 'mytask4', status: false }, //Patrick-goal2
+        { id: 229, goal_id: 108, title: 'Write reflections in journal twice a day', status: false }, //Patrick-goal2
+        { id: 230, goal_id: 108, title: 'Ask for feedback when possible', status: false }, //Patrick-goal2
+        { id: 231, goal_id: 108, title: 'Maintain an open mind when receiving feedback', status: false }, //Patrick-goal2
+        { id: 232, goal_id: 108, title: 'Apply changes from feedback', status: false }, //Patrick-goal2
 
-        { id: 233, goal_id: 109, title: 'mytask1', status: false }, //Patrick-goal3
-        { id: 234, goal_id: 109, title: 'mytask2', status: false }, //Patrick-goal3
-        { id: 235, goal_id: 109, title: 'mytask3', status: false }, //Patrick-goal3
-        { id: 236, goal_id: 109, title: 'mytask4', status: false }, //Patrick-goal3
+        { id: 233, goal_id: 109, title: 'Practice routing', status: false }, //Patrick-goal3
+        { id: 234, goal_id: 109, title: 'Resolve SQLite not working', status: false }, //Patrick-goal3
+        { id: 235, goal_id: 109, title: 'Research deploying a database driven web app to Heroku', status: false }, //Patrick-goal3
+        { id: 236, goal_id: 109, title: 'Practice database testing', status: false }, //Patrick-goal3
 
         { id: 237, goal_id: 110, title: 'Eat vegetables', status: false }, //Phill
         { id: 238, goal_id: 110, title: 'Exercise', status: false }, //Phill

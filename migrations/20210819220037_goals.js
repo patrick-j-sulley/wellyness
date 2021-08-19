@@ -3,7 +3,7 @@ exports.up = function (knex) {
       table.increments('id').primary()
       table.integer('user_id')
       table.string('title')
-      table.string('end_date')
+      table.varchar('end_date')
     })
   }
   

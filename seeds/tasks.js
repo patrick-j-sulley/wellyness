@@ -1,5 +1,5 @@
 exports.seed = knex =>
-  knex('goals').del()
+  knex('tasks').del()
     .then(() =>
       knex('tasks').insert([
         { id: 201, goal_id: 101, title: 'mytask1', status: false }, //Anand-goal1

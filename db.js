@@ -5,7 +5,7 @@ function getUsers(db = database) {
     return db("users").select()
 }
 
-function viewUser(id, db=database) {
+function viewUserGoals(id, db=database) {
     return db('users')
     .select()
     .join('users', 'goals.user_id', 'user.id')
@@ -13,10 +13,18 @@ function viewUser(id, db=database) {
     .first()
 }
 
+function viewUserTasks(goal_id ,db = database) {
+    return db('goals')
+    .select()
+    .join('goals', 'taks.user_id', 'goals.id')
+    .where('goals.id', id)
+    .first()
+}
 
 
 
 module.exports = {
     getUsers,
-    viewUser
+    viewUserGoals,
+    viewUserTasks
 }                               

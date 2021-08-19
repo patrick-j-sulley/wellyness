@@ -11,7 +11,7 @@ exports.seed = knex =>
         { id: 107, user_id: 3, title: 'myGoal1', end_date: 25/08/2021 }, //Patrick
         { id: 108, user_id: 3, title: 'myGoal2', end_date: 25/08/2021 }, //Patrick
         { id: 109, user_id: 3, title: 'myGoal3', end_date: 25/08/2021 }, //Patrick
-        { id: 110, user_id: 4, title: 'Take care of my health', end_date: 25/08/2021 }, //Phill
-        { id: 111, user_id: 4, title: 'myGoal2', end_date: 25/08/2021 }, //Phill
-        { id: 112, user_id: 4, title: 'myGoal3', end_date: 25/08/2021 }, //Phill
+        { id: 110, user_id: 4, title: 'Take care of my physical health', end_date: 25/08/2021 }, //Phill
+        { id: 111, user_id: 4, title: 'Take care of my mental health', end_date: 25/08/2021 }, //Phill
+        { id: 112, user_id: 4, title: 'Succeed at EDA', end_date: 25/08/2021 }, //Phill
       ]))

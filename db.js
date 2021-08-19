@@ -17,14 +17,19 @@ function viewUserTasks(goal_id ,db = database) {
     return db('goals')
     .select()
     .join('goals', 'taks.user_id', 'goals.id')
-    .where('goals.id', id)
+    .where('goal_id', id)
     .first()
 }
 
+function addUser(user, db =database) {
+    return db('users')
+    .insert(user)
+}
 
 
 module.exports = {
     getUsers,
     viewUserGoals,
-    viewUserTasks
+    viewUserTasks,
+    addUser,
 }                               

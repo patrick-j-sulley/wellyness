@@ -17,20 +17,20 @@ exports.seed = knex =>
         { id: 211, goal_id: 103, title: 'mytask3', status: false }, //Anand-goal3
         { id: 212, goal_id: 103, title: 'mytask4', status: false }, //Anand-goal3
 
-        { id: 213, goal_id: 104, title: 'mytask1', status: false }, //Juliet-goal1
-        { id: 214, goal_id: 104, title: 'mytask2', status: false }, //Juliet-goal1
-        { id: 215, goal_id: 104, title: 'mytask3', status: false }, //Juliet-goal1
-        { id: 216, goal_id: 104, title: 'mytask4', status: false }, //Juliet-goal1
+        { id: 213, goal_id: 104, title: 'Go outside and get some fresh air and light. ', status: false }, //Juliet-goal1
+        { id: 214, goal_id: 104, title: 'Brush teeth morning and night.', status: false }, //Juliet-goal1
+        { id: 215, goal_id: 104, title: 'Get some screen free time', status: false }, //Juliet-goal1
+        { id: 216, goal_id: 104, title: 'Do one thing to get my heart rate up', status: false }, //Juliet-goal1
 
-        { id: 217, goal_id: 105, title: 'mytask1', status: false }, //Juliet-goal2
-        { id: 218, goal_id: 105, title: 'mytask2', status: false }, //Juliet-goal2
-        { id: 219, goal_id: 105, title: 'mytask3', status: false }, //Juliet-goal2
-        { id: 220, goal_id: 105, title: 'mytask4', status: false }, //Juliet-goal2
+        { id: 217, goal_id: 105, title: 'Reach out to a human outside my home', status: false }, //Juliet-goal2
+        { id: 218, goal_id: 105, title: 'Tend to something growing/living', status: false }, //Juliet-goal2
+        { id: 219, goal_id: 105, title: 'Find stillness', status: false }, //Juliet-goal2
+        { id: 220, goal_id: 105, title: 'Think of 5 things I’m grateful for today', status: false }, //Juliet-goal2
 
-        { id: 221, goal_id: 106, title: 'mytask1', status: false }, //Juliet-goal3
-        { id: 222, goal_id: 106, title: 'mytask2', status: false }, //Juliet-goal3
-        { id: 223, goal_id: 106, title: 'mytask3', status: false }, //Juliet-goal3
-        { id: 224, goal_id: 106, title: 'mytask4', status: false }, //Juliet-goal3
+        { id: 221, goal_id: 106, title: 'A sound or song', status: false }, //Juliet-goal3
+        { id: 222, goal_id: 106, title: 'A sensory feeling', status: false }, //Juliet-goal3
+        { id: 223, goal_id: 106, title: 'Something I see', status: false }, //Juliet-goal3
+        { id: 224, goal_id: 106, title: 'A meditation practice', status: false }, //Juliet-goal3
 
         { id: 225, goal_id: 107, title: 'mytask1', status: false }, //Patrick-goal1
         { id: 226, goal_id: 107, title: 'mytask2', status: false }, //Patrick-goal1

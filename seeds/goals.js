@@ -5,9 +5,9 @@ exports.seed = knex =>
         { id: 101, user_id: 1, title: 'myGoal1', end_date: '25/08/2021' }, //Anand
         { id: 102, user_id: 1, title: 'myGoal2', end_date: '25/08/2021' }, //Anand
         { id: 103, user_id: 1, title: 'myGoal3', end_date: '25/08/2021' }, //Anand
-        { id: 104, user_id: 2, title: 'myGoal1', end_date: '25/08/2021' }, //Juliet
-        { id: 105, user_id: 2, title: 'myGoal2', end_date: '25/08/2021' }, //Juliet
-        { id: 106, user_id: 2, title: 'myGoal3', end_date: '25/08/2021' }, //Juliet
+        { id: 104, user_id: 2, title: 'Look after my body', end_date: '25/08/2021' }, //Juliet
+        { id: 105, user_id: 2, title: 'Care for my mind', end_date: '25/08/2021' }, //Juliet
+        { id: 106, user_id: 2, title: 'Be mindfully present to:', end_date: '25/08/2021' }, //Juliet
         { id: 107, user_id: 3, title: 'myGoal1', end_date: '25/08/2021' }, //Patrick
         { id: 108, user_id: 3, title: 'myGoal2', end_date: '25/08/2021' }, //Patrick
         { id: 109, user_id: 3, title: 'myGoal3', end_date: '25/08/2021' }, //Patrick

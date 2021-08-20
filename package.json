@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.3.3",
@@ -12,15 +15,16 @@
     "sqlite3": "^5.0.2"
   },
   "devDependencies": {
-     "jest": "^27.0.6", 
-     "cheerio": "^1.0.0-rc.10",
-     "ngrok": "^4.1.0",
-     "nodemon": "^2.0.12", 
-     "supertest": "^6.1.6"
+    "jest": "^27.0.6",
+    "cheerio": "^1.0.0-rc.10",
+    "ngrok": "^4.1.0",
+    "nodemon": "^2.0.12",
+    "supertest": "^6.1.6"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index"
+    "dev": "nodemon index",
+    "start": "node index"
   },
   "repository": {
     "type": "git",

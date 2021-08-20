@@ -25,7 +25,7 @@ router.get('/', (req, res) => {
 
 router.post("/add", (req, res) => {
   const newUser = req.body;
-  db.addWomble(newUser)
+  db.addUser(newUser)
     .then((user_id) => {
       res.redirect("user/" + user_id)
     })

@@ -4,17 +4,19 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.10",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.3",
     "handlebars": "^4.7.7",
-    "jest": "^27.0.6",
     "knex": "^0.21.21",
-    "ngrok": "^4.1.0",
-    "nodemon": "^2.0.12",
     "sqlite": "^4.0.23",
-    "sqlite3": "^5.0.2",
-    "supertest": "^6.1.6"
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+     "jest": "^27.0.6", 
+     "cheerio": "^1.0.0-rc.10",
+     "ngrok": "^4.1.0",
+     "nodemon": "^2.0.12", 
+     "supertest": "^6.1.6"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

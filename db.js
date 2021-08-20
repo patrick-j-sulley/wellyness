@@ -8,7 +8,7 @@ function getUsers(db = database) {
 function viewUserGoals(id, db=database) {
     return db('users')
     .select()
-    .join('users', 'goals.user_id', 'user.id')
+    .join('goals', 'goals.user_id', 'users.id')
     .where('users.id', id)
     .first()
 }

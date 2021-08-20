@@ -1,0 +1,35 @@
+{
+  "name": "w3d5-group-project-wellyness",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "handlebars": "^4.7.7",
+    "knex": "^0.21.21",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+     "jest": "^27.0.6", 
+     "cheerio": "^1.0.0-rc.10",
+     "ngrok": "^4.1.0",
+     "nodemon": "^2.0.12", 
+     "supertest": "^6.1.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roa-2021/Wellyness.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roa-2021/Wellyness/issues"
+  },
+  "homepage": "https://github.com/roa-2021/Wellyness#readme"
+}

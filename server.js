@@ -9,4 +9,11 @@ const server = express()
 server.engine('hbs', hbs({
     extname: 'hbs'
 }))
-server.set
+server.set('view engine', 'hbs')
+server.use(express.static('public'))
+server.use(express.urlencoded({ extended: true }))
+
+// Routes
+server.use('/', routes)
+
+module.exports = server

@@ -5,12 +5,19 @@ function getUsers(db = database) {
     return db("users").select()
 }
 
+function getUserByID(id, db = database) {
+    return db("users")
+    .select()
+    .where('id', id)
+    .first()
+}
+
 function viewUserGoals(id, db=database) {
     return db('users')
     .select()
-    .join('users', 'goals.user_id', 'user.id')
+    .join('goals', 'goals.user_id', 'users.id')
     .where('users.id', id)
-    .first()
+    // .first()
 }
 
 function viewUserTasks(goal_id ,db = database) {
@@ -18,7 +25,7 @@ function viewUserTasks(goal_id ,db = database) {
     .select()
     .join('goals', 'tasks.goal_id', 'goals.id')
     .where('tasks.goal_id', goal_id)
-    .first()
+    // .first()
 }
 
 function addUser(user, db = database) {
@@ -44,4 +51,5 @@ module.exports = {
     addUser,
     addGoal,
     addTask,
+    getUserByID
 }                               

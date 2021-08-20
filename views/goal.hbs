@@ -1,19 +1,14 @@
-<h1>Welcome back {{name}}!</h1>
+<h1>Welcome back {{user.name}}!</h1>
 
 <h2>Here are your goals for lockdown!</h2>
-{{#each goal}}
+{{#each goals}}
 <table>
     <tr>
         <th>{{title}}</th>
-        <th>Status</th>
-        <th>End date</th>
+        {{!-- <th>Status</th>
+        <th>End date</th> --}}
     </tr>
-    {{#each task}}
-    <tr>
-        <td>{{title}}</td>
-        <td>{{status}}</td>
-        <td>{{enddate}}</td>
-    </tr>
-    {{/each}}
+    {{!-- {{> task}} --}}
 </table>
 {{/each}}
+<a href="/">Home</a>
